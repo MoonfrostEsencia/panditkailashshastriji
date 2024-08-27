@@ -161,7 +161,7 @@ export default function Page() {
               <h2 className="text-6xl font-bold tracking-tighter sm:text-7xl">
                 Get in Touch
               </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-sm">
               क्या आप अपनी समस्याओं का समाधान चाहते हैं?{" "}
                 <Link
                   href={DATA.contact.social.facebook.url}
@@ -185,7 +185,7 @@ export default function Page() {
 <a href="https://calendly.com/panditkailashshastriji-o/30min">
 <button className="relative inline-flex h-24 overflow-hidden rounded-full p-[4px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-10">
   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-9 py-4 text-lg font-medium text-white backdrop-blur-3xl">
+  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-9 py-4 text-sm font-medium text-white backdrop-blur-3xl">
     Make An Appointment
   </span>
 </button>
